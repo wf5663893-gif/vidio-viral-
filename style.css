@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 15px;
+}
+
+.topbar {
+  background: #ff3d00;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 100%;
+  display: block;
+}
+
+.card h1 {
+  padding: 15px 15px 5px;
+  font-size: 24px;
+}
+
+.card p {
+  padding: 0 15px 15px;
+  color: #cfcfcf;
+  line-height: 1.5;
+}
+
+.watch-btn {
+  display: block;
+  margin: 0 15px 20px;
+  text-align: center;
+  background: #ff3d00;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.watch-btn:hover {
+  opacity: 0.9;
+}
+
+.comments {
+  background: #1c1c1c;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.comments h2 {
+  margin-bottom: 15px;
+}
+
+.comment-item {
+
